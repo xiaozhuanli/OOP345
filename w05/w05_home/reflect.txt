@@ -1,0 +1,40 @@
+// Workshop 5 - Functions and Error Handling
+// reflect.txt
+// Name: Luciana Gonzaga Altermann
+// Seneca Student ID: 129855185
+// Seneca email:lgonzaga-altermann@myseneca.ca
+// Date : feb,16 2020
+
+  Reflection
+ 
+Question1 - the difference between the implementations/utilizations of a functor and a lambda expression. When is appropriate to use each one?
+
+	Answer: Lambda expression just can be used only in the module that was create, so using lambda expressions this one will return the value in a simple way without build others function to return the value, when it is using a functor this one needs to construct externally linkage witch is not it pratical to do simples tasks.
+   
+Question 2 - the constructor for SpellChecker generates an exception in certain conditions. How would you change your code to achieve the same result, but without exceptions (both on the constructor and on the client side)? Compare the two solutions.
+
+	 Answer: We can use the if condition when open the file and check for errors but this will be repetitive since  the same erros should be checked for each string all the time while the file is open.	
+	
+Question 3 - the classes Movie and Book contain almost identical logic in loading data from the file. How would you redesign the classes in order not to duplicate that logic?
+
+	Answer: Templates can reduze the number of repetion since create a function to run the same template everytime when necessary.
+	
+Question 4 - the classes Movie and Book are instantiated from the main() function using a custom constructor, but they also contain a default constructor. Is the default constructor necessary? Could you remove it? Justify your answer.
+	
+	A defaut constructor is creater when the code is running so if we remove the constructor in the main the code will run the same way.
+   
+ Quiz 6 - Reflection
+Question 17 
+corret answer is a-14
+my answer was e - none of the above
+Since I did not understood what the functional was doing to achive this result, but now I now that I should 
+subtract and multiply the number by itself to achieve the result.
+
+
+	
+
+
+
+
+	  
+	

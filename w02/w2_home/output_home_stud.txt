@@ -1,0 +1,65 @@
+Script started on Sun 26 Jan 2020 12:49:52 AM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+  2: gutenberg_shakespeare
+--------------------------
+
+  0-arg Constructor - a.size =       0 records ->   (a) Record    0: []
+                                                    (a) Record  100: []
+                                                    (a) Record 1000: []
+                                                    (a) Record last: []
+
+  1-arg Constructor - b.size = 1293934 records ->   (b) Record    0: [This]
+                                                    (b) Record  100: [USED]
+                                                    (b) Record 1000: [or]
+                                                    (b) Record last: [Shakespeare]
+
+  Copy Constructor  - c.size = 1293934 records ->   (c) Record    0: [This]
+                                                    (c) Record  100: [USED]
+                                                    (c) Record 1000: [or]
+                                                    (c) Record last: [Shakespeare]
+
+  Copy Assignment   - a.size = 1293934 records ->   (a) Record    0: [This]
+                                                    (a) Record  100: [USED]
+                                                    (a) Record 1000: [or]
+                                                    (a) Record last: [Shakespeare]
+
+  Move Constructor  - d.size = 1293934 records ->   (a) Record    0: []
+                                                    (a) Record  100: []
+                                                    (a) Record 1000: []
+                                                    (a) Record last: []
+
+                                                    (d) Record    0: [This]
+                                                    (d) Record  100: [USED]
+                                                    (d) Record 1000: [or]
+                                                    (d) Record last: [Shakespeare]
+
+  Move Assignment   - a.size = 1293934 records ->   (a) Record    0: [This]
+                                                    (a) Record  100: [USED]
+                                                    (a) Record 1000: [or]
+                                                    (a) Record last: [Shakespeare]
+
+                                                    (d) Record    0: []
+                                                    (d) Record  100: []
+                                                    (d) Record 1000: []
+                                                    (d) Record last: []
+--------------------------
+Execution Times:
+--------------------------
+  0-arg Constructor           400 nanoseconds
+  1-arg Constructor     143262483 nanoseconds
+  Copy Constructor       45969131 nanoseconds
+  Copy Assignment        40605638 nanoseconds
+  Move Constructor       39666940 nanoseconds
+  Move Assignment        48291527 nanoseconds
+  Destructor             18343972 nanoseconds
+--------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Sun 26 Jan 2020 12:49:52 AM EST

@@ -1,0 +1,44 @@
+Script started on Wed 22 Jan 2020 09:58:11 PM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+  2: gutenberg_shakespeare
+--------------------------
+
+  0-arg Constructor - a.size =       0 records ->   (a) Record    0: []
+                                                    (a) Record  100: []
+                                                    (a) Record 1000: []
+                                                    (a) Record last: []
+
+  1-arg Constructor - b.size = 1293934 records ->   (b) Record    0: [This]
+                                                    (b) Record  100: [USED]
+                                                    (b) Record 1000: [or]
+                                                    (b) Record last: [Shakespeare]
+
+  Copy Constructor  - c.size = 1293934 records ->   (c) Record    0: [This]
+                                                    (c) Record  100: [USED]
+                                                    (c) Record 1000: [or]
+                                                    (c) Record last: [Shakespeare]
+
+  Copy Assignment   - a.size = 1293934 records ->   (a) Record    0: [This]
+                                                    (a) Record  100: [USED]
+                                                    (a) Record 1000: [or]
+                                                    (a) Record last: [Shakespeare]
+
+--------------------------
+Execution Times:
+--------------------------
+  0-arg Constructor           300 nanoseconds
+  1-arg Constructor     125698827 nanoseconds
+  Copy Constructor       40051094 nanoseconds
+  Copy Assignment        40019794 nanoseconds
+  Destructor             17545822 nanoseconds
+--------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Wed 22 Jan 2020 09:58:11 PM EST

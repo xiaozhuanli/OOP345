@@ -1,0 +1,9 @@
+﻿  Book.cpp
+C:\Users\Owner\Desktop\Seneca 4 semestre\OOP345\w05\w05_home\Book.cpp(64,16): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+  Collection.cpp
+  Movie.cpp
+C:\Users\Owner\Desktop\Seneca 4 semestre\OOP345\w05\w05_home\Movie.cpp(36,16): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+  SpellChecker.cpp
+  w5_home.cpp
+  Generating Code...
+  Project35.vcxproj -> C:\Users\Owner\Desktop\Seneca 4 semestre\OOP345\w05\w05_home\Debug\Project35.exe

@@ -1,0 +1,14 @@
+In line number 18 of your output:
+The output should be:
+Reservation RES-001:       John  <john@email.com>        Drinks on day 3 @ 5:00 for 2 people.
+                                                          ^
+But your output is: 
+Reservation RES-001:       John  <john@email.com>        Dinks on day 3 @ 5:00 for 2 people.
+                                                          ^
+
+Unmatched character details:
+The character in column 59 is supposed to be:
+  [r] ASCII code(114)
+but you printed
+  [i] ASCII code(105)
+

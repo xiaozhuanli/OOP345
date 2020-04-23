@@ -1,0 +1,27 @@
+// Name: Luciana Gonzaga Altermann
+// Seneca Student ID: 129855185
+// Seneca email:lgonzaga-altermann
+// Date of completion: 03/18/2020
+// Workshop 8: Smart Pointers
+// I confirm that the content of this file is created by me,
+//   with the exception of the parts provided to me by my professor.
+
+0 - I have learned how to move a smarth poiter and the differences between using smart poiter and raw pointers. 
+
+1- The advantage that smart pointer syntax provides. Use example from your code to support your explanation?
+ 
+Since we do not need to call a delete this syntax garanties that when a ptr go out of scope it will be destroided and we do not have memory leek in that code. 
+using a smart_ptr
+std::unique_ptr<Product>tmp(new Product(desc[i].desc, price[j].price));
+	         tmp->validate();
+	         priceList += tmp;
+using a raw ptr
+	Product* tmp = new Product(desc[i].desc, price[j].price);
+		tmp->validate();
+		priceList += tmp;
+		delete tmp;
+
+2- The difference between raw and smart pointer syntax in your solution?
+ 	
+ The differences between then a do not need reserve a copied of element in the memory since unique_ptr does not alow that and a do not need to delete the poiter when this one goes out of scope. 
+ 

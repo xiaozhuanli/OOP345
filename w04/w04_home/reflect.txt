@@ -1,0 +1,48 @@
+// Workshop 4- Containers
+// reflect.txt
+// Name: Luciana Gonzaga Altermann
+// Seneca Student ID: 129855185
+// Seneca email:lgonzaga-altermann@myseneca.ca
+// Date : feb,9 2020
+
+  Reflection
+ 
+ I have learn Speacialinzing an Operation for a Dynamic Type, how to use unary expression, 
+casting operator.
+ 1 - The differences between implementation, composition and aggregation.  
+- A composition cannot exist without a child class as in reservation module and a parent class as restaurant module. Also, agregation is part of of reservation module but use the ConfirmationSender as a complementing module.
+  2 - The difference between the implementations of move and copy functions in a composition and an aggregation. 
+  Move functions does not need allocate memory to just do the copy the address. 
+  Copy functions needs memory allocation memory when it making a copy.
+   
+ Quiz 5 - Reflection
+The question 8 and 9 i did got the rigth answer since I make confuse about push back did not print anything.
+8. Code 3.0, Line 8 will print:
+     Correct Answer
+     d. None of the above
+     My Answer
+     b. 20.54
+
+9. Code 3.0, Line 9 will print:
+     c. 32.43
+     d. None of the above
+
+25. The output of line 10 is:
+     correct answer
+     b. 39
+     my answer
+     c. 4
+
+26. The output of line 11 is:
+     correct answer
+     d. 2
+     my answer
+     e. 26
+
+	
+
+
+
+
+	  
+	

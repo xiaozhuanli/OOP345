@@ -1,0 +1,5 @@
+﻿  Book.cpp
+C:\Users\Owner\Desktop\Seneca 4 semestre\OOP345\w05\w05_lab\Book.cpp(62,16): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+  w5_lab.cpp
+  Generating Code...
+  Project33.vcxproj -> C:\Users\Owner\Desktop\Seneca 4 semestre\OOP345\w05\w05_lab\Debug\Project33.exe

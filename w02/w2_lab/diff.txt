@@ -1,0 +1,14 @@
+In line number 21 of your output:
+The output should be:
+  Copy Constructor  - c.size = 1293934 records ->   (c) Record    0: [This]
+^
+But your output is: 
+*** Error in `ws': munmap_chunk(): invalid pointer: 0x00007fff2f60440c ***
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [*] ASCII code(42)
+

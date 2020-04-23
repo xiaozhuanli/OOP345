@@ -1,0 +1,4 @@
+﻿  RecordSet.cpp
+  TimedEvents.cpp
+  Generating Code...
+LINK : fatal error LNK1168: cannot open C:\Users\Owner\Desktop\Seneca 4 semestre\OOP345\w02\WS02\in-lab\Project1\Debug\Project1.exe for writing

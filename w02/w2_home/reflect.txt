@@ -1,0 +1,94 @@
+// Workshop 2 - Copy and Move Semantics
+// w2_lab.cpp
+// Name: Luciana Gonzaga Altermann
+// Seneca Student ID: 129855185
+/* Seneca email: lgonzaga-altermann@myseneca.ca*/
+// Date of completion: 01/19/2020
+//
+// I confirm that the content of this file is created by me,
+// with the exception of the parts provided to me by my professor.
+
+Reflection
+
+	Move constructor enables to move the resourses without making a copie because of this the performance of move assignment operator is equal copy assignment operator. Move constructor is better than copy constructor since the first one it not allocated memory and not copy memory into buffer.
+
+Quiz 2 - Reflection
+	2. Code 1.0 – Line 4 code 1.0 will loop through this many iterations:
+	a. 300 //it was my answer
+	d. None of the above // it is the correct answer
+
+the three next quastions are related since I answer the first on incorrectly the others also are incorrect.
+
+	9. Code 3.0, the first iteration of line 4 is
+	b. 2 //my answer was b 
+	a. 1 //the correct answer is a
+
+	10. Code 3.0, the second iteration of line 4 is
+	c. 3 // my answer was c
+	b. 2 // the correct answer is b
+	
+	11. Code 3.0, the third iteration of line 4 is
+	d. 4 // my answer was d
+	c. 3  // the correct answer is c
+
+	35. Code 14.0, will output:
+	b. x = 300 // my answer was b
+	a. x = 44 // the correct answer is a
+
+	29. Code 11, the third iteration of line 9 will print.
+	b. 5 // my answer was b
+	c. 4 // the correct answer is c
+
+	30. Code 11, the fourth iteration of line 9 will print.
+	b. 5 // the correct answer
+	c. 4 // my answer
+
+Quiz 2.1 - Reflection	
+
+	Most of the lack of attention or I made a mistake when I was doing the 	lecture of the codes.
+
+	6. First run of Code 1.0, the user selects ‘s’, and dimension of ‘2’, 	                 therefore the output of line 4 is:
+
+                	c. 33.1503 // the correct answer
+                	e. None of the above // my answer 
+
+	8. In Code 2.0, Line 15 will print “Null pointer on first type-cast”:
+	a. YES // my answer
+	b. NO // the correct answer
+
+	10. In Code 2.0, Line 19 will print “Null pointer on third type-cast”:
+	a. YES // my answer
+	b. NO // the correct answer
+
+	14.In Code 3.0, third iteration of line 42 will print:
+	e. None of the above // my answer
+	c. Class C Object are private // the correct answer.
+
+	19.In Code 4.0, The output of line 9 is:
+	b. 4 // my answer
+	a. 2 // correct answer
+
+	20.In Code 4.0, The output of line 10 is:
+	a. 2 // my answer
+	c. 1 // the correct answer
+
+	21.In Code 4.0, The output of line 11 is:
+	a. 2 // my answer
+	c. 1 // correct answer
+
+	22.In Code 4.0, The output of line 12 is:
+	b. 4 // my answer
+	a. 2 // the correct answer
+
+	25.In Code 5.0, The output of line 11 is:
+	e. None of the above // my answer 
+	b. A-A // the correct answer // correct answer
+	
+
+
+	
+
+
+
+
+

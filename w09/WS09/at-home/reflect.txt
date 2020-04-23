@@ -1,0 +1,20 @@
+// Name: Luciana Gonzaga Altermann
+// Seneca Student ID: 129855185
+// Seneca email:lgonzaga-altermann
+// Date of completion: 03/18/2020
+// Workshop 9: Multi-Threading
+// I confirm that the content of this file is created by me,
+//   with the exception of the parts provided to me by my professor.
+
+
+1- why was necessary to use binary files in this workshop and how did you use them?
+
+ Using binary files is a faster way to check data records since if we have a array with 100 elements in a text file we need to loop inside that this array witch is a longer task. On the other hand when we use a file.dat a binary file I just need the number of bytes that it will be read, so make the task to loop inside of array much more faster than a editor file. In this assignment we use Description.dat, BadPrices.dat and Prices.dat that are binary files.   
+
+2- why would be important to bind a function to its arguments, and how was it useful in this workshop?
+ Bind garaties that the copy of the arguments cannot be lost even if we reassignt a nem value to my varible bind still tracking the original value. Since unique_ptr cannot be copied,  bind have the task to do what the unique poiter is not able to do, a copy of the values.
+
+
+3- the advantages of using multiple threads, and how did you accomplished multi-threading in this workshop.
+ Sharing resourses, like memory. data and files; Treads allow this happen in paralelum, economy of time and data. In this work shop multitreading allow make the task faster then 
+
